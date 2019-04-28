@@ -1,0 +1,75 @@
+body {
+    font-family: "Source Sans Pro","Open Sans",
+    "Helvetica Neue","Helvetica,Arial,sans-serif" ;
+      margin:0;
+      background-image: url("dietbg.jpg");
+      background-color: #cccccc;
+      background-size: 100%;
+      background-blend-mode:exclusion;
+  }
+  /*PAGE BODY*/
+  .p1{
+  display: block;
+  width: 37%;
+  opacity: 0.9;
+  border: 1px solid white;
+  background-color: #E7F1F5;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  margin-left: 10px;
+  float: auto;
+  font-size: 19px;
+  border-radius: 4px;
+  }
+
+  .ul1{
+  display: block;
+  width: 37%;
+  opacity: 0.9;
+  border: 1px solid white;
+  background-color: #E7F1F5;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  }
+
+  .h1{
+  padding-left: 10px;
+  display: block;
+  width: 20%;
+  opacity: 0.9;
+  border: 1px solid white;
+  background-color: #E7F1F5;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  }
+  #Fatbutton,#routbutton{
+  color: #fff ;
+  text-transform: uppercase;
+  background:  #4CAF50;
+  padding: 10px;
+  margin-left: 10%;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  }
+
+  .cal,.result{
+    display: block;
+    width: 35%;
+    opacity: 0.9;
+    border: 1px solid white;
+    background-color: #E7F1F5;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    float: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    border-radius: 4px;
+  }
