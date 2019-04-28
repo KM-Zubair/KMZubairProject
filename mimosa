@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <link rel="stylesheet" href="recipe.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+
+  });
+});
+
+    $(document).ready(function(){
+    $("#x").click(function(){
+    $("#y").slideToggle("slow");
+
+  });
+});
+
+$(document).ready(function(){
+$("#a").click(function(){
+$("#b").slideToggle("slow");
+
+});
+});
+</script>
+  </head>
+    <link rel="stylesheet" href="mash.css">
+  <body>
+    <div class="main">
+      <div class="header-area" id="head">
+
+
+
+
+      <div class="dropdown">
+        <button class="dropbtn"><a href= "index.html" >Home </a></button>
+        <div class="dropdown-content">
+        <a href="UpcomingProjects.html">Upcoming Projects</a>
+        <a href="CurrentProjects.html">Updates of Current Project</a>
+        <a href="AboutUs.html">About Us</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Food Menu</button>
+        <div class="dropdown-content">
+        <a href="pizza.html">Homemade Pizza Dough</a>
+        <a href="Walnut-Rosemary Crusted Salmon.html">Walnut Rosemary Crusted Salmon</a>
+        <a href="f2.html">Chicken-"Fried" Steak with Spiced Gravy</a>
+        <a href="f3.html">Salmon Tostadas with Citrus-Kale Slaw</a>
+        <a href="PeachCobblerOatmeal.html">Peach Cobbler Oatmeal</a>
+
+        </div>
+      </div>
+
+      <div class="dropdow" >
+      <img src ="images/logo.jpg" id="logo" > </img>
+      </div>
+
+      <div class="dropdown">
+            <button class="dropbtn"><a href="dietcontrol.html">Diet Control</a></button>
+            <div class="dropdown-content">
+              <a href="fatcal.html">Fat calculator</a>
+              <a href="bmi.html">BMI calculator</a>
+              <a href="dietroutine.html">Diet Routine</a>
+
+            </div>
+          </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">Contact</button>
+          <div class="dropdown-content">
+          <a href="contact.html">Contact Form</a>
+          <a href="Location.html">Location</a>
+          </div>
+        </div>
+      </div>
+    <div class="header">
+    <h1><hr style="border:3px solid #f1f1f1">Spinach & Egg Sweet Potato Toast</h1><hr style="border:3px solid #f1f1f1">
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+    <!-- fotorama.css & fotorama.js. -->
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+    <!-- 2. Add images to <div class="fotorama"></div>. -->
+    <div class="fotorama" data-fit="contain"  data-width="1200"
+    data-height="400" data-autoplay="3000">
+
+      <img src="b2.1.jpg" alt="river-image">
+      <img src="b2.2.jpg" alt="my-alt-text1">
+      <img src="b2.3.jpg" alt="my-alt-text1">
+      <img src="b2.4.jpg" alt="my-alt-text1">
+      <a href="https://www.youtube.com/watch?v=OFzaN9TMl04">Baked Egg</a>
+
+
+  </div>
+  <hr style="border:3px solid #f1f1f1">
+
+  <div class="Accordion">
+    <div id="flip">Ingredients</div>
+    <div id="panel"><ul>
+    <li>1 large slice sweet potato ( ¼ inch thick)</li>
+    <li>Organic Garnet & Jewel Sweet Potato</li>
+    <li>⅓ cup cooked spinach</li>
+    <li>1 large egg, fried or poached</li>
+    <li>½ teaspoon sliced fresh chives</li>
+    <li>½ teaspoon hot sauce</li>
+
+  </ul></div>
+
+    <div id="x">Preparation</div>
+    <div id="y">  <ol>
+      <li>Toast sweet potato in a toaster or toaster oven until just cooked through and starting to brown, 12 to 15 minutes. Top with spinach, egg, chives and hot sauce.</li>
+
+    </ol></div>
+
+    <div id="a">Nutrition Information</div>
+    <div id="b">  <ul>
+      <li>Per serving: 124 calories; 5 g fat(2 g sat); 3 g fiber; 11 g carbohydrates; 9 g protein; 114 mcg folate; 186 mg </li>
+      <li>cholesterol; 3 g sugars; 0 g added sugars; 14,756 IU vitamin A; 16 mg vitamin C; 126 mg calcium; 3 mg iron; 190 mg sodium; 555 mg potassium<li>
+      <li>Nutrition Bonus: Vitamin A (295% daily value), Folate (28% dv), Vitamin C (27% dv)</li>
+      <li>Carbohydrate Servings: ½</li>
+
+
+    </ul></div>
+
+  </div>
+
+
+    <h1><hr style="border:3px solid #f1f1f1">Comment Area</h1><hr style="border:3px solid #f1f1f1">
+
+  <div class="container">
+<form action="mash.html">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="Email" placeholder="Your Email here ..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Comment</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <button onclick="myFunction()" style="background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer; float:right;">Submit</button>
+  </div>
+  <script>
+function myFunction() {
+alert("Thank You for your comment");
+}
+</script>
+</form>
+</div>
+  </body>
+</html>
