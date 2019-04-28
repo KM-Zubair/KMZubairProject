@@ -1,0 +1,890 @@
+body {
+	margin:0pt;
+}
+
+
+
+.first--half {
+	height: 94px;
+}
+
+/*
+.first--half:hover{
+	height: 413px;
+}
+*/
+
+.header-area {
+    height: 89px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 26%;
+    
+	
+
+    
+    color: #fff;
+    /* position: absolute; */
+    
+     /* transition: all .2s ease-in-out; */
+	box-shadow: 0px 5px 20px 0px #4CAF50;
+}
+/*
+.header-area:hover{
+	height: 399px;
+	background-image: linear-gradient(to bottom, #ffffff, #ffffff, #6cd8d9, #37c6a0, #4caf50);
+}
+*/
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px; 
+  font-size: 16px;
+  border: none;
+}
+.dropbtn a{
+	text-decoration: none;
+	color : white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+   margin-left:15px;
+   margin-top: 11px;
+   float: left;
+}
+
+.dropdow {
+  
+  position: relative;
+  
+  margin-left:25px;
+  margin-right:25px;
+  float: left;
+}
+.dropdow img{
+	height:75px; 
+  width:105px;
+   margin-left:30px;
+  margin-right:30px;
+}
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(241, 241, 241, 0.7);
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(165, 165, 165); }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* First Image of Home Page */
+.img1 {
+	margin-right:15px;
+}
+.img1 img{
+	
+	margin-right: 20px;
+	margin-left: 10px;
+	float : left;
+}
+.img1 p{
+ font-family: "Source Sans Pro","Open Sans","Helvetica Neue","Helvetica,Arial,sans-serif" ;
+ line-height : 1.5;
+}
+
+hr.type_5 {
+border: 0;
+height: 55px;
+background-image: url(type_5.png);
+background-repeat: no-repeat;
+}
+
+
+/* Upcoming Projects Page */
+.table-project {
+	
+	border-spacing :15px;
+	
+	width: 1204px;
+	margin-left: 9px;
+}
+.table-project tr{
+	margin-left: 10px;
+}
+/* Current Project updates Page */
+.CurrentProject {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+ /* Iframe youtube video */
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    border: 0;
+	
+}
+
+ /* Instructions and ingredients */
+
+
+.ingredients-container{
+	margin: 0px 90px 30px 90px;
+	font-family: Roboto,Helvetica Neue,Helvetica, Arial, sans-serif;
+	color:#424242;
+	line-height: 1.75;
+	
+	border: 5px ridge #4CAF50;
+border-radius: 0px 40px 0px 40px;
+	
+}
+
+.mv {
+	font-family: Roboto,Helvetica Neue,Helvetica, Arial, sans-serif;
+	color:#424242;
+	margin: 50px 90px 50px 90px;
+	line-height: 1.75;
+	
+	border: 5px ridge #4CAF50;
+border-radius: 0px 40px 0px 40px;
+	
+}
+.mv-create-notes {
+	
+	font-family: Roboto,Helvetica Neue,Helvetica, Arial, sans-serif;
+	color:#424242;
+	line-height: 1.75;
+	margin: 10px 20px 30px 25px;
+}
+
+.mv-create {
+	
+	margin: 0px 100px 30px 100px;
+	
+	border: 5px dashed #4CAF50;
+border-radius: 0px 2px 0px 0px;
+}
+
+
+
+/* Pizza Animation Grid Starts */
+
+
+
+.mainWrapper {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.mainWrapperInner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/**/
+
+
+
+
+.st0 {
+	fill: #4CAF50;
+}
+.st1 {
+	fill: #F2DBCC;
+}
+.st2 {
+	fill: #FFFFFF;
+}
+.st3 {
+	fill: #F9EEE8;
+}
+.st4 {
+	fill: #F4DED4;
+}
+.st5 {
+	opacity: 0.9;
+}
+.st6 {
+	opacity: 0.8;
+	fill: #E5C5B3;
+}
+.st7 {
+	fill: #F2B34E;
+}
+.st8 {
+	fill: #EF9050;
+}
+.st9 {
+	fill: #C90606;
+}
+.st10 {
+	fill: #808910;
+}
+.st11 {
+	fill: #F8F9DE;
+}
+.pizza-wrapper {
+	width: 400px;
+	margin: 0 auto;
+}
+.pizzaBG {
+	background: #4CAF50;
+}
+#plate {
+	-webkit-animation: plate 10s ease-in-out infinite;
+	animation: plate 10s ease-in-out infinite;
+}
+ @-webkit-keyframes plate {
+ 0% {
+ opacity:0;
+ -webkit-transform:translateY(100px);
+         transform:translateY(100px);
+}
+ 10% {
+ opacity:1;
+ -webkit-transform:translateY(0px);
+         transform:translateY(0px);
+}
+ 90% {
+ opacity:1;
+ -webkit-transform:translateY(0px);
+         transform:translateY(0px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform:translateY(100px);
+         transform:translateY(100px);
+}
+}
+ @keyframes plate {
+ 0% {
+ opacity:0;
+ -webkit-transform:translateY(100px);
+         transform:translateY(100px);
+}
+ 10% {
+ opacity:1;
+ -webkit-transform:translateY(0px);
+         transform:translateY(0px);
+}
+ 90% {
+ opacity:1;
+ -webkit-transform:translateY(0px);
+         transform:translateY(0px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform:translateY(100px);
+         transform:translateY(100px);
+}
+}
+#knife {
+	-webkit-animation: knife 10s ease-in-out infinite;
+	animation: knife 10s ease-in-out infinite;
+	-webkit-transform-origin: center;
+	        transform-origin: center;
+}
+ @-webkit-keyframes knife {
+ 0% {
+ opacity:0;
+ -webkit-transform:translate(100px, 100px) rotate(90deg);
+         transform:translate(100px, 100px) rotate(90deg);
+}
+ 10% {
+ opacity:1;
+ -webkit-transform:translate(0px, 0px) rotate(0deg);
+         transform:translate(0px, 0px) rotate(0deg);
+}
+ 90% {
+ opacity:1;
+ -webkit-transform:translate(0px, 0px) rotate(0deg);
+         transform:translate(0px, 0px) rotate(0deg);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform:translate(100px, 100px) rotate(90deg);
+         transform:translate(100px, 100px) rotate(90deg);
+}
+}
+ @keyframes knife {
+ 0% {
+ opacity:0;
+ -webkit-transform:translate(100px, 100px) rotate(90deg);
+         transform:translate(100px, 100px) rotate(90deg);
+}
+ 10% {
+ opacity:1;
+ -webkit-transform:translate(0px, 0px) rotate(0deg);
+         transform:translate(0px, 0px) rotate(0deg);
+}
+ 90% {
+ opacity:1;
+ -webkit-transform:translate(0px, 0px) rotate(0deg);
+         transform:translate(0px, 0px) rotate(0deg);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform:translate(100px, 100px) rotate(90deg);
+         transform:translate(100px, 100px) rotate(90deg);
+}
+}
+#fork {
+	-webkit-animation: fork 10s ease-in-out infinite;
+	animation: fork 10s ease-in-out infinite;
+	-webkit-transform-origin: center;
+	        transform-origin: center;
+}
+ @-webkit-keyframes fork {
+ 0% {
+ opacity:0;
+ -webkit-transform:translate(-100px, 100px) rotate(-90deg);
+         transform:translate(-100px, 100px) rotate(-90deg);
+}
+ 10% {
+ opacity:1;
+ -webkit-transform:translate(0px, 0px) rotate(0deg);
+         transform:translate(0px, 0px) rotate(0deg);
+}
+ 90% {
+ opacity:1;
+ -webkit-transform:translate(0px, 0px) rotate(0deg);
+         transform:translate(0px, 0px) rotate(0deg);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform:translate(-100px, 100px) rotate(-90deg);
+         transform:translate(-100px, 100px) rotate(-90deg);
+}
+}
+ @keyframes fork {
+ 0% {
+ opacity:0;
+ -webkit-transform:translate(-100px, 100px) rotate(-90deg);
+         transform:translate(-100px, 100px) rotate(-90deg);
+}
+ 10% {
+ opacity:1;
+ -webkit-transform:translate(0px, 0px) rotate(0deg);
+         transform:translate(0px, 0px) rotate(0deg);
+}
+ 90% {
+ opacity:1;
+ -webkit-transform:translate(0px, 0px) rotate(0deg);
+         transform:translate(0px, 0px) rotate(0deg);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform:translate(-100px, 100px) rotate(-90deg);
+         transform:translate(-100px, 100px) rotate(-90deg);
+}
+}
+#pizza {
+	-webkit-animation: pizza 10s ease-in-out infinite;
+	animation: pizza 10s ease-in-out infinite;
+	-webkit-transform-origin: center;
+	        transform-origin: center;
+}
+ @-webkit-keyframes pizza {
+ 0% {
+ opacity:0;
+ -webkit-transform: translateY(-190px) rotate(90deg);
+         transform: translateY(-190px) rotate(90deg);
+}
+ 10% {
+ opacity:0;
+ -webkit-transform: translateY(-190px) rotate(90deg);
+         transform: translateY(-190px) rotate(90deg);
+}
+ 20% {
+ opacity:1;
+ -webkit-transform: translateY(0px) rotate(0deg);
+         transform: translateY(0px) rotate(0deg);
+}
+ 80% {
+ opacity:1;
+ -webkit-transform: translateY(0px) rotate(0deg);
+         transform: translateY(0px) rotate(0deg);
+}
+ 90% {
+ opacity:0;
+ -webkit-transform: translateY(-190px) rotate(90deg);
+         transform: translateY(-190px) rotate(90deg);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translateY(-190px) rotate(90deg);
+         transform: translateY(-190px) rotate(90deg);
+}
+}
+ @keyframes pizza {
+ 0% {
+ opacity:0;
+ -webkit-transform: translateY(-190px) rotate(90deg);
+         transform: translateY(-190px) rotate(90deg);
+}
+ 10% {
+ opacity:0;
+ -webkit-transform: translateY(-190px) rotate(90deg);
+         transform: translateY(-190px) rotate(90deg);
+}
+ 20% {
+ opacity:1;
+ -webkit-transform: translateY(0px) rotate(0deg);
+         transform: translateY(0px) rotate(0deg);
+}
+ 80% {
+ opacity:1;
+ -webkit-transform: translateY(0px) rotate(0deg);
+         transform: translateY(0px) rotate(0deg);
+}
+ 90% {
+ opacity:0;
+ -webkit-transform: translateY(-190px) rotate(90deg);
+         transform: translateY(-190px) rotate(90deg);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translateY(-190px) rotate(90deg);
+         transform: translateY(-190px) rotate(90deg);
+}
+}
+g[id^="pizza-slice"]:nth-child(1) {
+	-webkit-animation: pizzasliceone 10s ease-in-out infinite;
+	animation: pizzasliceone 10s ease-in-out infinite;/*transform: translate(-40px, -15px);*/
+}
+g[id^="pizza-slice"]:nth-child(2) {
+	-webkit-animation: pizzaslicetwo 10s ease-in-out infinite;
+	animation: pizzaslicetwo 10s ease-in-out infinite;/*transform: translate(40px, -15px);*/
+}
+g[id^="pizza-slice"]:nth-child(3) {
+	-webkit-animation: pizzaslicethree 10s ease-in-out infinite;
+	animation: pizzaslicethree 10s ease-in-out infinite;/*transform: translate(15px, -40px);*/
+}
+g[id^="pizza-slice"]:nth-child(4) {
+	-webkit-animation: pizzaslicefour 10s ease-in-out infinite;
+	animation: pizzaslicefour 10s ease-in-out infinite;/*transform: translate(16px, 40px);*/
+}
+g[id^="pizza-slice"]:nth-child(5) {
+	-webkit-animation: pizzaslicefive 10s ease-in-out infinite;
+	animation: pizzaslicefive 10s ease-in-out infinite;/*transform: translate(40px, 15px);*/
+}
+g[id^="pizza-slice"]:nth-child(6) {
+	-webkit-animation: pizzaslicesix 10s ease-in-out infinite;
+	animation: pizzaslicesix 10s ease-in-out infinite;/*transform: translate(-15px, 40px);*/
+}
+g[id^="pizza-slice"]:nth-child(7) {
+	-webkit-animation: pizzasliceseven 10s ease-in-out infinite;
+	animation: pizzasliceseven 10s ease-in-out infinite;/*transform: translate(-40px, 15px);*/
+}
+g[id^="pizza-slice"]:nth-child(8) {
+	-webkit-animation: pizzasliceeight 10s ease-in-out infinite;
+	animation: pizzasliceeight 10s ease-in-out infinite;/*transform: translate(-16px, -40px);*/
+}
+ @-webkit-keyframes pizzasliceone {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 20% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 27.5% {
+ opacity:0;
+ -webkit-transform: translate(-40px, -15px);
+         transform: translate(-40px, -15px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(-40px, -15px);
+         transform: translate(-40px, -15px);
+}
+}
+ @keyframes pizzasliceone {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 20% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 27.5% {
+ opacity:0;
+ -webkit-transform: translate(-40px, -15px);
+         transform: translate(-40px, -15px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(-40px, -15px);
+         transform: translate(-40px, -15px);
+}
+}
+ @-webkit-keyframes pizzaslicetwo {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 27.5% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 35% {
+ opacity:0;
+ -webkit-transform: translate(40px, -15px);
+         transform: translate(40px, -15px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(40px, -15px);
+         transform: translate(40px, -15px);
+}
+}
+ @keyframes pizzaslicetwo {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 27.5% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 35% {
+ opacity:0;
+ -webkit-transform: translate(40px, -15px);
+         transform: translate(40px, -15px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(40px, -15px);
+         transform: translate(40px, -15px);
+}
+}
+ @-webkit-keyframes pizzaslicesix {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 35% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 42.5% {
+ opacity:0;
+ -webkit-transform: translate(-15px, 40px);
+         transform: translate(-15px, 40px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(-15px, 40px);
+         transform: translate(-15px, 40px);
+}
+}
+ @keyframes pizzaslicesix {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 35% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 42.5% {
+ opacity:0;
+ -webkit-transform: translate(-15px, 40px);
+         transform: translate(-15px, 40px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(-15px, 40px);
+         transform: translate(-15px, 40px);
+}
+}
+ @-webkit-keyframes pizzasliceeight {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 42.5% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 50% {
+ opacity:0;
+ -webkit-transform: translate(-16px, -40px);
+         transform: translate(-16px, -40px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(-16px, -40px);
+         transform: translate(-16px, -40px);
+}
+}
+ @keyframes pizzasliceeight {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 42.5% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 50% {
+ opacity:0;
+ -webkit-transform: translate(-16px, -40px);
+         transform: translate(-16px, -40px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(-16px, -40px);
+         transform: translate(-16px, -40px);
+}
+}
+ @-webkit-keyframes pizzaslicefour {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 50% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 57.5% {
+ opacity:0;
+ -webkit-transform: translate(16px, 40px);
+         transform: translate(16px, 40px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(16px, 40px);
+         transform: translate(16px, 40px);
+}
+}
+ @keyframes pizzaslicefour {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 50% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+
+ 57.5% {
+ opacity:0;
+ -webkit-transform: translate(16px, 40px);
+         transform: translate(16px, 40px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(16px, 40px);
+         transform: translate(16px, 40px);
+}
+}
+ @-webkit-keyframes pizzaslicethree {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 57.5% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 65% {
+ opacity:0;
+ -webkit-transform: translate(15px, -40px);
+         transform: translate(15px, -40px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(15px, -40px);
+         transform: translate(15px, -40px);
+}
+}
+ @keyframes pizzaslicethree {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 57.5% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 65% {
+ opacity:0;
+ -webkit-transform: translate(15px, -40px);
+         transform: translate(15px, -40px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(15px, -40px);
+         transform: translate(15px, -40px);
+}
+}
+ @-webkit-keyframes pizzaslicefive {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 65% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 72.5% {
+ opacity:0;
+ -webkit-transform: translate(40px, 15px);
+         transform: translate(40px, 15px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(40px, 15px);
+         transform: translate(40px, 15px);
+}
+}
+ @keyframes pizzaslicefive {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 65% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 72.5% {
+ opacity:0;
+ -webkit-transform: translate(40px, 15px);
+         transform: translate(40px, 15px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(40px, 15px);
+         transform: translate(40px, 15px);
+}
+}
+ @-webkit-keyframes pizzasliceseven {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 72.5% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 80% {
+ opacity:0;
+ -webkit-transform: translate(-40px, 15px);
+         transform: translate(-40px, 15px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(-40px, 15px);
+         transform: translate(-40px, 15px);
+}
+}
+ @keyframes pizzasliceseven {
+ 0% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 72.5% {
+ opacity:1;
+ -webkit-transform: translate(0px, 0px);
+         transform: translate(0px, 0px);
+}
+ 80% {
+ opacity:0;
+ -webkit-transform: translate(-40px, 15px);
+         transform: translate(-40px, 15px);
+}
+ 100% {
+ opacity:0;
+ -webkit-transform: translate(-40px, 15px);
+         transform: translate(-40px, 15px);
+}
+
+/* Pizza Animation Grid Ends */
+
+.animate {
+	
+	
+	
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+	padding-bottom: 2px;
+}
+
+
+
+
